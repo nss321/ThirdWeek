@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIViewController {
-    static func collectionViewLayout() -> UICollectionViewFlowLayout{
+    static func collectionViewLayout() -> UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: 100, height: 100)
@@ -20,4 +20,10 @@ extension UIViewController {
 
 class MyCollectionViewLayout: UICollectionViewLayout {
     
+}
+
+extension UICollectionViewDataSource {
+    func configCollectionView() { }
+    func configCollectionViewLayout() { }
+    func registCell() { }
 }

@@ -18,6 +18,10 @@
 		110DB73B2D2F5BB3009B89CD /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DB7392D2F5BB3009B89CD /* SampleCollectionViewCell.swift */; };
 		110DB73C2D2F5BB3009B89CD /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110DB73A2D2F5BB3009B89CD /* SampleCollectionViewCell.xib */; };
 		110DB73E2D2F6961009B89CD /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110DB73D2D2F6961009B89CD /* UIViewController+.swift */; };
+		115BE0122D30A80D00173E73 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 115BE0112D30A80D00173E73 /* ChatTableViewCell.xib */; };
+		115BE0132D30A80D00173E73 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BE0102D30A80D00173E73 /* ChatTableViewCell.swift */; };
+		115BE0152D30B32900173E73 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115BE0142D30B32900173E73 /* Setting.storyboard */; };
+		115BE0172D30B61700173E73 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BE0162D30B61700173E73 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		110DB7392D2F5BB3009B89CD /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		110DB73A2D2F5BB3009B89CD /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
 		110DB73D2D2F6961009B89CD /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		115BE0102D30A80D00173E73 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		115BE0112D30A80D00173E73 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		115BE0142D30B32900173E73 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		115BE0162D30B61700173E73 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 				110DB7392D2F5BB3009B89CD /* SampleCollectionViewCell.swift */,
 				110DB73A2D2F5BB3009B89CD /* SampleCollectionViewCell.xib */,
 				110DB73D2D2F6961009B89CD /* UIViewController+.swift */,
+				115BE0102D30A80D00173E73 /* ChatTableViewCell.swift */,
+				115BE0112D30A80D00173E73 /* ChatTableViewCell.xib */,
+				115BE0142D30B32900173E73 /* Setting.storyboard */,
+				115BE0162D30B61700173E73 /* SettingViewController.swift */,
 			);
 			path = ThirdWeek;
 			sourceTree = "<group>";
@@ -147,8 +159,10 @@
 			files = (
 				110DB6FC2D2E4E30009B89CD /* Assets.xcassets in Resources */,
 				110DB6FF2D2E4E30009B89CD /* Base in Resources */,
+				115BE0122D30A80D00173E73 /* ChatTableViewCell.xib in Resources */,
 				110DB73C2D2F5BB3009B89CD /* SampleCollectionViewCell.xib in Resources */,
 				110DB6FA2D2E4E2E009B89CD /* Base in Resources */,
+				115BE0152D30B32900173E73 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +176,9 @@
 				110DB7382D2F58EF009B89CD /* SampleCollectionViewController.swift in Sources */,
 				110DB6F72D2E4E2E009B89CD /* ViewController.swift in Sources */,
 				110DB73E2D2F6961009B89CD /* UIViewController+.swift in Sources */,
+				115BE0172D30B61700173E73 /* SettingViewController.swift in Sources */,
 				110DB6F32D2E4E2E009B89CD /* AppDelegate.swift in Sources */,
+				115BE0132D30A80D00173E73 /* ChatTableViewCell.swift in Sources */,
 				110DB6F52D2E4E2E009B89CD /* SceneDelegate.swift in Sources */,
 				110DB73B2D2F5BB3009B89CD /* SampleCollectionViewCell.swift in Sources */,
 			);
